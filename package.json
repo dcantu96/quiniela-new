@@ -1,0 +1,13 @@
+{
+  "name": "quiniela-new-app",
+  "version": "1.0.0",
+  "description": "My groovy Nuxt.js and Rails API project",
+  "author": "David Cantu Martinez",
+  "engines": {
+    "node": "12.4.0"
+  },
+  "scripts": {
+    "build": "npm run --prefix quiniela-api-nuxt build",
+    "heroku-postbuild": "npm run --prefix quiniela-api-nuxt build && npm run run --prefix quiniela-api-nuxt start"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-front-end",
+  "version": "1.0.0",
+  "description": "My groovy Nuxt.js project",
+  "author": "David Cantu Martinez",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm build && npm start"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/toast": "^3.2.1",
+    "ant-design-vue": "^1.1.10",
+    "devour-client": "^2.0.27",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^3.0.3",
+    "nodemon": "^1.18.9"
+  }
+}
