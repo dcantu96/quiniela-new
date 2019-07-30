@@ -11,6 +11,6 @@
     "build": "npm run --prefix nuxt-front-end build",
     "start": "npm run --prefix nuxt-front-end start",
     "deploy": "cp -a nuxt-front-end/build/. public/",
-    "heroku-postbuild": "npm run --prefix nuxt-front-end build && npm deploy"
+    "heroku-postbuild": "npm run --prefix nuxt-front-end build && npm run deploy"
   }
 }
