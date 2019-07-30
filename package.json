@@ -10,8 +10,8 @@
     "nuxt": "latest"
   },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start"
+    "dev": "npm run --prefix nuxt-front-end dev",
+    "build": "npm run --prefix nuxt-front-end build",
+    "start": "npm run --prefix nuxt-front-end start"
   }
 }
