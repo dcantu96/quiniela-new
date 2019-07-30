@@ -7,9 +7,9 @@
     "node": "12.4.0"
   },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "heroku-postbuild": "npm run --prefix nuxt-front-end build && npm run --prefix nuxt-front-end start"
+    "dev": "npm run --prefix nuxt-front-end dev",
+    "build": "npm run --prefix nuxt-front-end build",
+    "start": "npm run --prefix nuxt-front-end start",
+    "heroku-postbuild": "npm run --prefix nuxt-front-end build"
   }
 }
