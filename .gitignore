@@ -30,5 +30,5 @@
 /public
 
 # Ignore node modules
-/node_modules
-/.nuxt
+/nuxt-front-end/node_modules
+/nuxt-front-end/.nuxt
