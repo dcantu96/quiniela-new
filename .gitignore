@@ -28,7 +28,3 @@
 # Ignore public, as it is built on deploy
 # Place files for /public in /client/public
 /public
-
-# Ignore node modules
-/nuxt-front-end/node_modules
-/nuxt-front-end/.nuxt
