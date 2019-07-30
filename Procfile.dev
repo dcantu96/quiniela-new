@@ -1,2 +1,2 @@
-web: PORT=3000 npm run --prefix quiniela-api-nuxt dev
+web: PORT=3000 npm run --prefix nuxt-front-end dev
 api: PORT=8080 bundle exec rails s

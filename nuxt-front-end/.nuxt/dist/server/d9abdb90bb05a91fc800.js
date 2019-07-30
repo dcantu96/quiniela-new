@@ -1,0 +1,2 @@
+exports.ids=[9],exports.modules={52:function(t,e,r){"use strict";r.r(e);r(11);var c={middleware:"auth",asyncData:async({$axios:t})=>({matches:(await t.$get("/matches")).data})},l=r(1),component=Object(l.a)(c,function(){var t=this,e=t.$createElement;return(t._self._c||e)("div",[t._ssrNode("<ul>"+t._ssrList(t.matches,function(e){return"<li><p>"+t._ssrEscape("Match: "+t._s(e.id))+"</p> <p>"+t._ssrEscape("Date: "+t._s(e.attributes.date))+"</p></li>"})+"</ul>")])},[],!1,null,null,"1644c1d3");e.default=component.exports}};
+//# sourceMappingURL=d9abdb90bb05a91fc800.js.map

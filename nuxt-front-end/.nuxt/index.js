@@ -11,10 +11,10 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_toast_34829146 from 'nuxt_plugin_toast_34829146' // Source: ./toast.js (mode: 'client')
-import nuxt_plugin_axios_198e6aae from 'nuxt_plugin_axios_198e6aae' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_toast_5feb581e from 'nuxt_plugin_toast_5feb581e' // Source: ./toast.js (mode: 'client')
+import nuxt_plugin_axios_03da0742 from 'nuxt_plugin_axios_03da0742' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_antdui_2b2dca90 from 'nuxt_plugin_antdui_2b2dca90' // Source: ../plugins/antd-ui (mode: 'all')
-import nuxt_plugin_plugin_3c5a3d6a from 'nuxt_plugin_plugin_3c5a3d6a' // Source: ./auth/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_38c9ca04 from 'nuxt_plugin_plugin_38c9ca04' // Source: ./auth/plugin.js (mode: 'all')
 
 // Component: <NoSsr>
 Vue.component(NoSsr.name, NoSsr)
@@ -154,20 +154,20 @@ async function createApp(ssrContext) {
 
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_toast_34829146 === 'function') {
-    await nuxt_plugin_toast_34829146(app.context, inject)
+  if (process.client && typeof nuxt_plugin_toast_5feb581e === 'function') {
+    await nuxt_plugin_toast_5feb581e(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_198e6aae === 'function') {
-    await nuxt_plugin_axios_198e6aae(app.context, inject)
+  if (typeof nuxt_plugin_axios_03da0742 === 'function') {
+    await nuxt_plugin_axios_03da0742(app.context, inject)
   }
 
   if (typeof nuxt_plugin_antdui_2b2dca90 === 'function') {
     await nuxt_plugin_antdui_2b2dca90(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_3c5a3d6a === 'function') {
-    await nuxt_plugin_plugin_3c5a3d6a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_38c9ca04 === 'function') {
+    await nuxt_plugin_plugin_38c9ca04(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first

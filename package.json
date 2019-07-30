@@ -7,7 +7,9 @@
     "node": "12.4.0"
   },
   "scripts": {
-    "build": "npm run --prefix quiniela-api-nuxt build",
-    "heroku-postbuild": "npm run --prefix quiniela-api-nuxt build && npm run run --prefix quiniela-api-nuxt start"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run --prefix nuxt-front-end build && npm run --prefix nuxt-front-end start"
   }
 }

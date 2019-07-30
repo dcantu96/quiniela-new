@@ -2,15 +2,15 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _47f5c3f2 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _6073b951 = () => interopDefault(import('../pages/matches.vue' /* webpackChunkName: "pages/matches" */))
-const _945b2d16 = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
-const _1ca7bd52 = () => interopDefault(import('../pages/teams/index.vue' /* webpackChunkName: "pages/teams/index" */))
-const _4d2780c6 = () => interopDefault(import('../pages/user.vue' /* webpackChunkName: "pages/user" */))
-const _01333b36 = () => interopDefault(import('../pages/teams/new.vue' /* webpackChunkName: "pages/teams/new" */))
-const _e3e678f8 = () => interopDefault(import('../pages/teams/_ids.vue' /* webpackChunkName: "pages/teams/_ids" */))
-const _e2ab6b6c = () => interopDefault(import('../pages/teams/_id/edit.vue' /* webpackChunkName: "pages/teams/_id/edit" */))
-const _125d7af0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _3b2d13f3 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _d5143786 = () => interopDefault(import('../pages/matches.vue' /* webpackChunkName: "pages/matches" */))
+const _21159c09 = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
+const _3286f643 = () => interopDefault(import('../pages/teams/index.vue' /* webpackChunkName: "pages/teams/index" */))
+const _7890479e = () => interopDefault(import('../pages/user.vue' /* webpackChunkName: "pages/user" */))
+const _06ecfb5e = () => interopDefault(import('../pages/teams/new.vue' /* webpackChunkName: "pages/teams/new" */))
+const _354da118 = () => interopDefault(import('../pages/teams/_ids.vue' /* webpackChunkName: "pages/teams/_ids" */))
+const _6f4b8444 = () => interopDefault(import('../pages/teams/_id/edit.vue' /* webpackChunkName: "pages/teams/_id/edit" */))
+const _718570dc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -88,39 +88,39 @@ export function createRouter() {
 
     routes: [{
       path: "/login",
-      component: _47f5c3f2,
+      component: _3b2d13f3,
       name: "login"
     }, {
       path: "/matches",
-      component: _6073b951,
+      component: _d5143786,
       name: "matches"
     }, {
       path: "/register",
-      component: _945b2d16,
+      component: _21159c09,
       name: "register"
     }, {
       path: "/teams",
-      component: _1ca7bd52,
+      component: _3286f643,
       name: "teams"
     }, {
       path: "/user",
-      component: _4d2780c6,
+      component: _7890479e,
       name: "user"
     }, {
       path: "/teams/new",
-      component: _01333b36,
+      component: _06ecfb5e,
       name: "teams-new"
     }, {
       path: "/teams/:ids",
-      component: _e3e678f8,
+      component: _354da118,
       name: "teams-ids"
     }, {
       path: "/teams/:id/edit",
-      component: _e2ab6b6c,
+      component: _6f4b8444,
       name: "teams-id-edit"
     }, {
       path: "/",
-      component: _125d7af0,
+      component: _718570dc,
       name: "index"
     }],
 
