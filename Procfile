@@ -1,3 +1,2 @@
-back: bundle exec rails s
-front: npm run --prefix nuxt-front-end start
+web: bundle exec rails s && exec nuxt start
 release: bin/rake db:migrate
